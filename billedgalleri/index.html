@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galleri</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gal.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/f023dd87f9.js" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+      <header class="topheader">
+          <a href="" class="logo"> <img src="images/nissan-logo-2020-black.png" alt="nissan logo" class="logo"> </a>
+        <nav class="topnav">
+          <a href="#" class="menu-item">punkt 1</a>
+          <a href="#" class="menu-item">punkt 2</a>
+          <a href="#" class="menu-item">punkt 3</a>
+        </nav>
+      </header>
+      <main class="content wrapper">
+        <h1>billed Galleri</h1>
+
+        <figure class="gallery">
+          <a href="images/180sx-1.jpg" class="gallery-link" onclick="imgClick(this); return false;">
+            <img
+              src="images/180sx-1.jpg"
+              alt="en hvid Nissan 180sx fra en reklame"
+            />
+          </a>
+          <a href="images/180sx-2.jpg" class="gallery-link"  onclick="imgClick(this); return false;">
+            <img
+              src="images/180sx-2.jpg"
+              alt="en sort Nissan 180sx på en parkeringsplads"
+            />
+          </a>
+          <a href="images/nissan-180sx-3.jpg" class="gallery-link"  onclick="imgClick(this); return false;">
+            <img
+             src="images/nissan-180sx-3.jpg" alt="en grå Nissan 180sx" 
+            />
+          </a>
+          <a href="images/nissan-180sx-4.jpg" class="gallery-link"  onclick="imgClick(this); return false;">
+            <img
+              src="images/nissan-180sx-4.jpg"
+              alt="en sort Nissan 180sx der holder skævt"
+            />
+          </a>
+          <a href="images/nissan-180sx-5.jpg" class="gallery-link"  onclick="imgClick(this); return false;">
+            <img
+              src="images/nissan-180sx-5.jpg"
+              alt="en rød Nissan 180sx der kører på vejen"
+            />
+          </a>
+        </figure>
+      </main>
+      <footer class="site-footer">
+        <section><h2>footer section 1</h2></section>
+        <div class="some-icons">
+
+        
+            <a href="https://github.com/mazejumper1">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/magnus.borregaard/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/magnus.borregaard.90">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </div>
+        <section><h2>footer section 2</h2></section>
+      </footer>
+      <!-- her kommer container til modal -->
+      <figure class="modal-outer hidden">
+        <img src="" alt="en hvid Nissan 180sx fra en reklame" id="modal-img" class="modal-img">
+        <button id="close"><i class="fa-solid fa-xmark"></i></button>
+      </figure>
+  </body>
+</html>
